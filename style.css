@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+body{
+    direction: rtl;
+}
+.container h2 {
+    color: #52b035;
+    font-size: 20px;
+}
+
+/*--------------Start index.php-----------------*/
+header{
+    background-color: #eadddd;
+    color:white;
+}
+header .container > div{
+    width: fit-content;
+    height:calc(100%-180px);
+}
+.sign{
+    text-decoration:none !important;
+    color:white !important;
+}
+.Home{
+    background: url('./img/17.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100vh;
+    margin-top:180px;
+}
+.Home .intro{
+    width:100%;
+    line-height: 80px;
+    height: 100%;
+    direction: rtl;
+}
+.Home .intro input[type='text']:focus {
+    outline: none;
+}
+.searchBorder{
+    border:1px solid #52b035;
+}
+.Home .intro input[type='submit']{
+    background-color: #52b035;
+    border-color: #52b035;
+    color: white;
+}
+.services a {
+    font-size:18px;
+    font-weight: bold;
+}
+.services .service_type .column > div{
+    height:130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services .service_type .bussiness{
+    background-image: url('../img/bussiness-2.jpg');
+}
+.session_services .view{
+    color:green !important;
+    border-color: green !important;
+}
+.grayBakground , .cart{
+    background-color: #F1F1F1;
+}
+.work_type span{
+    padding: 3px 0px 5px 0px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    right: 85%;
+    bottom: -14px;
+}
+.work_type img{
+    width:50px;
+    height:30px;
+}
+.session_services a{
+    color: #09092a;
+}
+.loginBar{
+    background-color: #444;
+    color:white;
+}
+.freeRegister , .freeRegister:hover{
+    background-color: green;
+}
+/*--------------End index.php-----------------*/
+
+/*--------------Start Login.php-----------------*/
+.Login_body{
+    background-color: #eceff4;
+}
+#Login{
+    background-color: white;
+    width:635px;
+}
+#Login .social a{
+    width:230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#Login .social a:first-of-type{
+    background-color: red;
+}
+#Login .social a:last-of-type {
+    background-color: blue;
+}
+#Login .another_choice span{
+    display: inline-block;
+    width:150px;
+    height:2px;
+    background:linear-gradient(to left, black , gray,white);
+}
+#Login form input:not(input[type='submit']){
+    width:350px;
+    padding:5px;
+    background-color: #0000f40d;
+    border: 1px solid #09092a;
+}
+#Login ul{
+    padding-right:40px;
+    margin-top: -10px;
+}
+#Login ul li a{
+    color:rgb(63, 63, 214)
+}
+/*--------------End Login.php-----------------*/
+/*--------------Start Rigister.php-----------------*/
+.Rigister_Body {
+    background-color: #eceff4;
+}
+#Rigister {
+    background-color: white;
+    width: 635px;
+}
+#Rigister .social a {
+    width: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#Rigister .social a:first-of-type {
+    background-color: red;
+}
+#Rigister .social a:last-of-type {
+    background-color: blue;
+}
+#Rigister .another_choice span {
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background: linear-gradient(to left, black, gray, white);
+}
+#Rigister form input:not(input[type='submit'] , input[type='checkbox']){
+    width: 100%;
+    padding: 5px;
+    background-color: #0000f40d;
+    border: 1px solid #09092a;
+}
+#Rigister form input[type='text']{
+   width:97% !important;
+}
+#Rigister .Condition_Text a {
+    color: rgb(63, 63, 214)
+}
+/*--------------End Rigister.php-----------------*/
+/*--------------Start Footer.php-----------------*/
+footer a{
+    color:black;
+}
+footer .container > div{
+    height:200px ;
+    margin-left: 30px;
+}
+
+footer .icons{
+    font-size:35px;
+}
+footer .icons:last-of-type{
+    color:grey
+}
+footer .fa-square-facebook{
+    color:#3b5998;
+}
+footer .fa-square-twitter{
+    color:#55acee;
+}
+/*--------------End Footer.php-----------------*/
+/*--------------Start Account_Type.php-----------------*/
+.Account_Type > div{
+    width:835px;
+}
+.Account_Type .user_type{
+    width:50px;
+    height:50px;
+}
+.Account_Type .Agree a {
+    color:#52b035;
+}
+.Account_Type input[type='submit']{
+    background-color:#52b035;
+}
+.Account_Type input[type='text']:last-of-type {
+    background-color:#e9ecef;
+    border-right: none;
+    width: 27.333333%;
+}
+.Account_Type input[type='text']{
+    border:2px solid #c3c5c6;
+}
+/*--------------End Account_Type.php-----------------*/
+/*--------------Start Profile.php-----------------*/
+#visitor p{
+    margin:0;
+}
+header .left img{
+    width:40px !important;
+    height:40px !important;
+}
+/*--------------End Profile.php-----------------*/
+/*--------------Start AddServices.php-----------------*/
+#AddVendorService main{
+    background-color: #F1F1F1;
+}
+#AddVendorService header .left img{
+    width: 40px !important;
+    height: 40px !important;
+}
+.DevlopServiceType > p{
+    display: none;
+}
+.addServes{
+    background-color: #c3c5c629;
+}
+.addServes i{
+    background-color: #dee2e6;
+    width: 33px;
+    height: 30px;
+    text-align: center;
+    left: -16px;
+    top: -17px;
+    font-weight: bold;
+}
+#AddService a , .DevelopService , .advice{
+    color:#52b035
+}
+.DevelopService , .advice{
+    border-color: #52b035 !important;
+}
+#AddVendorService form > div{
+    background-color: white;
+}
+#AddVendorService input[type='submit']{
+    background-color: #52b035;
+}
+/*--------------End AddServices.php-----------------*/
+/***************Menu*******************/
+.User_Menu{
+    width: 170px;
+    padding: 10px 20px;
+    display: none;
+}
+/***************UserProfile***************/
+.info{
+    background-color: gainsboro;
+}
+.ClickButton{
+    background-color: gainsboro;
+    border-radius: 0;
+    border: none;
+}
+.ProfileBTN:hover,.ProfileBTN:active{
+    background-color:rgba(220, 220, 220, 0.607);
+    border-radius: 0;
+    border:none;
+}
+.User_Menu > div{
+    padding:5px 3px;
+}
+.burgerMenu input:focus{
+    outline: none;
+}
+.burgerMenu{
+    height: 100vh;
+    padding: 10px;
+    width: 260px;
+    top: 0;
+    right: 0;
+}
+/*---------------------------------*/
+
+.logo{
+    width:100px;
+    heigh:100px;
+}
+.logos{
+    direction:rtl;
+}
+.digital{
+    width: 189px;
+    height: 90px;
+}

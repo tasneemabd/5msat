@@ -1,0 +1,57 @@
+ul li{
+  list-style: none;
+}
+input{
+  border:none;
+  padding:5px 20px;
+}
+input:focus {
+  outline: none;
+}
+#menu{
+  display: none;
+  top:95px
+}
+header{
+  position: fixed;
+  top:0;
+  width:100%;
+  z-index: 10000;
+}
+.loginBar .concat i {
+  border-left : 1px solid white ;
+}
+.freeRegister{
+  background-color: green !important;
+}
+.list{
+  list-style: none;
+}
+.search input{
+  border:2px solid gray;
+  text-align: right;
+}
+.list li{
+  margin-bottom:10px;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color:black;
+}
+.list:not(:first-of-type){
+  display: none;
+}
+.servicess-filter{
+  background-color: #f1f1f1;
+  height:100%;
+}
+.sectionServices{
+  margin-top:15%;
+}
+.loginBar{
+  background-color: #e2bebe !important;
+}
+.loginBar img{
+  width:82px !important;
+}
